@@ -1,15 +1,24 @@
-
-
-
-.link{
-    color: green;
-    font-size: 30px;
+.{
+    box-sizing: border-box;
 }
 
-.link:hover {
-    color: pink;
+body {
+    margin: 50px;
 }
 
-.link:visited {
-    color: red;
+p {
+  color: #0000ff;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+
+  text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
